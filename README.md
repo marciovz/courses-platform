@@ -7,9 +7,12 @@
 npm create vite@latest react-redux-zustand --use-npm
 ```
 
-## Redux toolket
+## Bibliotecas
 
 ```sh
-# Instalando a biblioteca do Redux tookit
-npm install @reduxjs/tookit
+# Instalando a biblioteca do Redux toolkit
+npm install @reduxjs/toolkit
+
+# Instalando a biblioteca de integração react-redux
+npm install react-redux
 ```
