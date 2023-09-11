@@ -71,3 +71,11 @@ identifier: bradlc.vscode-tailwindcss
 npm install react-player
 ```
 
+## Tailwind scrollbar
+
+```sh
+# Instando a biblioteca do tailwind-scrollbar
+npm install --save-dev tailwind-scrollbar
+```
+Adicionar a importação nos plugins do arquivo tailwind.config.js
+
