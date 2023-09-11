@@ -63,3 +63,11 @@ Tailwind CSS IntelliSense
 tailwind labs
 identifier: bradlc.vscode-tailwindcss
 ```
+
+## Video
+
+```sh
+# Instalando biblioteca react-player
+npm install react-player
+```
+
