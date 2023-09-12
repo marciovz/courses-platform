@@ -79,3 +79,10 @@ npm install --save-dev tailwind-scrollbar
 ```
 Adicionar a importação nos plugins do arquivo tailwind.config.js
 
+
+## Colapsible Radix
+
+```sh
+# Instalando a biblioteca do radix
+ npm install @radix-ui/react-collapsible
+```
