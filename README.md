@@ -86,3 +86,10 @@ Adicionar a importação nos plugins do arquivo tailwind.config.js
 # Instalando a biblioteca do radix
  npm install @radix-ui/react-collapsible
 ```
+
+## VITEST
+
+```sh
+# Instalando o vitest
+npm install vitest -D
+```
