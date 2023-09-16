@@ -1,26 +1,23 @@
 import { useEffect } from 'react';
 import { MessageCircle } from 'lucide-react';
 
-import { start, useCurrentLesson } from '../store/slices/player';
-import { useAppSelector } from '../store';
-import { api } from '../lib/axios';
+import { loadCourse, useCurrentLesson } from '../store/slices/player';
+import { useAppDispatch, useAppSelector } from '../store';
 import { Header } from '../components/Header';
 import { Video } from '../components/Video';
 import { Module } from '../components/Module';
-import { useDispatch } from 'react-redux';
+
 
 export function Player() {
-  const dispatch = useDispatch()
+  const dispatch = useAppDispatch()
 
   const modules = useAppSelector(state => state.player.course?.modules);
 
   const { currentLesson } = useCurrentLesson();
 
   useEffect(() => {
-    api.get('/courses/1').then(response => {
-      dispatch(start(response.data))
-    })
-  }, [currentLesson]);
+    dispatch(loadCourse())
+  }, []);
 
   useEffect(() => {
     if (currentLesson) {
