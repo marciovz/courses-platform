@@ -1,95 +1,61 @@
-# REDUX
+<h1 align="center">Course Platform</h1>
 
-## Criando projeto 
+## Introdução
 
-```sh
-# Criando projeto com vite
-npm create vite@latest react-redux-zustand --use-npm
-```
+Course Platform é uma aplicação WEB de uma plataforma de cursos em vídeos.
 
-## Bibliotecas
+É um projeto do curso de Reactjs Ignite 2022 que aborda conceitos de uso da biblioteca Redux.
 
-```sh
-# Instalando a biblioteca do Redux toolkit
-npm install @reduxjs/toolkit
+<div align="center" >
+  <img alt="course platform" src="./assets/course-platform.png" width="700px" />
+</div>
 
-# Instalando a biblioteca de integração react-redux
-npm install react-redux
-```
+## Requisitos
 
-## Configurando o Tailwind
+- Nodejs 16.20.0
+- npm 8.19.4
 
-```sh
-# Instalando as bibliotecas
-npm install -D tailwindcss postcss autoprefixer
+## Tecnologias
 
-# Iniciando os arquivos de configuração
-npx tailwindcss init
-```
+- ReactJS
+- Vite
+- Typescript
+- Tailwindcss
+- Redux
+- Axios
+- Lucide React Icons
+- Radix
+- React Player
+- Json Server
+- Vitest
 
-Arquivo tailwind.config.js
 
-```js
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    './src/**/*.tsx',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-Arquivo styles/global.css
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-## Adicionar as extensões do VScode
-
-```
-PostCSS Language Support
-csstools
-Identifier: csstools.postcss
-```
-
-```
-Tailwind CSS IntelliSense
-tailwind labs
-identifier: bradlc.vscode-tailwindcss
-```
-
-## Video
+## Instalação
 
 ```sh
-# Instalando biblioteca react-player
-npm install react-player
+# Fazer o clone do projeto em uma máquina local
+git clone https://github.com/marciovz/course-platform-reactjs-ignite2022.git
 ```
-
-## Tailwind scrollbar
 
 ```sh
-# Instando a biblioteca do tailwind-scrollbar
-npm install --save-dev tailwind-scrollbar
+# Acessa a pasta do projeto
+cd course-platform-reactjs-ignite2022
 ```
-Adicionar a importação nos plugins do arquivo tailwind.config.js
-
-
-## Colapsible Radix
 
 ```sh
-# Instalando a biblioteca do radix
- npm install @radix-ui/react-collapsible
+# Rodar a instalação das dependências do projeto
+npm install
 ```
 
-## VITEST
+## Rodando a aplicação
 
 ```sh
-# Instalando o vitest
-npm install vitest -D
+# Rodar o json server
+npm run server
+
+# Rodar a aplicação localmente
+npm run dev
 ```
+
+Abrir a aplicação no navegador no endereço http://localhost:5173
+
