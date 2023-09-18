@@ -1,13 +1,13 @@
-<h1 align="center">Course Platform</h1>
+<h1 align="center">Courses Platform</h1>
 
 ## Introdução
 
-Course Platform é uma aplicação WEB de uma plataforma de cursos em vídeos.
+Courses Platform é uma aplicação WEB de uma plataforma de cursos em vídeos.
 
 É um projeto do curso de Reactjs Ignite 2022 que aborda conceitos de uso da biblioteca Redux.
 
 <div align="center" >
-  <img alt="course platform" src="./assets/course-platform.png" width="700px" />
+  <img alt="courses platform" src="./assets/courses-platform.png" width="700px" />
 </div>
 
 ## Requisitos
@@ -34,12 +34,12 @@ Course Platform é uma aplicação WEB de uma plataforma de cursos em vídeos.
 
 ```sh
 # Fazer o clone do projeto em uma máquina local
-git clone https://github.com/marciovz/course-platform-reactjs-ignite2022.git
+git clone https://github.com/marciovz/courses-platform-reactjs-ignite2022.git
 ```
 
 ```sh
 # Acessa a pasta do projeto
-cd course-platform-reactjs-ignite2022
+cd courses-platform-reactjs-ignite2022
 ```
 
 ```sh
